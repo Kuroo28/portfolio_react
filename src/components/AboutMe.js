@@ -1,21 +1,25 @@
-import React from 'react'
-import "./AboutMe.css"
-import aboutMe from "../assets/about-img.png"
+import React from 'react';
+import './AboutMe.css';
+import aboutMeImage from '../assets/about-img.png'; // Replace with your image path
 
 const AboutMe = () => {
   return (
-    <div className='AboutMe-container'>
-        <div className='AboutMe-image'>
-            <img src={aboutMe} alt='AboutMe-img'/>
-            <div className='background'></div>
+    <div className='about-me-container'>
+      <div className='about-me-image'>
+        <div className='circular-background'>
+          <img src={aboutMeImage} alt='My Image' />
         </div>
-        <div className='AboutMe-text'>
-            <p>
-                Hi there!, Welcome to my creative world! I'm <span>Jeth</span> a Web <span>Developer</span> passionate about building websites.
-            </p>
-        </div>
+      </div>
+      <div className='about-me-text'>
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate web developer with a strong commitment to creating
+          stunning and functional websites. With a keen eye for design and a
+          love for coding, I bring creative ideas to life on the web.
+        </p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;
