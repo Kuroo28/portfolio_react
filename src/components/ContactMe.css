@@ -1,0 +1,38 @@
+.contact-me {
+    text-align: center;
+    padding: 20px;
+  }
+
+.contact-title {
+    text-align: center;
+    font-size: 32px;
+    color: #126782;
+    font-weight: lighter;
+    height: 113px;
+    width: 465px;
+    line-height: 42px;
+    width: 100%;
+  }
+  
+.contact-title span {
+    font-weight: 700;
+    color: #EE9B00;
+  } 
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon {
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    color: #126782;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+    color: #EE9B00;
+  }
+  

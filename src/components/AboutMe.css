@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 25px;
+    padding: 80px 25px 40px 25px;
     position: relative;
   }
   
@@ -15,7 +15,7 @@
     width: 532px;
     height: 492px;
     border-radius: 50%;
-    background-color: #126782;
+    background: radial-gradient(circle, #126782, #008B8B);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +40,7 @@
     color: #EE9B00;
     font-weight: 700;
     margin-bottom: 15px;
+    text-align: left;
   }
   
   .about-me-text p {
@@ -49,7 +50,6 @@
     height: 284px;
     width: 509px;
     text-align: left;
-    margin-right: auto;
     line-height: 42px;
   }
 

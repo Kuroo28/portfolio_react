@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Navbar.css"
 import logo from "../assets/logo.png"
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 
@@ -20,16 +21,19 @@ const Navbar = () => {
         </div>
           <ul className='nav-list'>
               <li className='nav-items'>
-                  <a href='/'>Home</a>
+                  <Link to='home' smooth={true} duration={500}>Home</Link>
               </li>
               <li className='nav-items'>
-                  <a href='/about'>About</a>
+                <Link to='about' smooth={true} duration={500}>About</Link>
               </li>
               <li className='nav-items'>
-                  <a href='/projects'>Projects</a>
+                  <Link to='skills' smooth={true} duration={500}>Skills</Link>
               </li>
               <li className='nav-items'>
-                  <a href='/contact'>Contact</a>
+                  <Link to='projects' smooth={true} duration={500}>Projects</Link>
+              </li>
+              <li className='nav-items'>
+                  <Link to='contact' smooth={true} duration={500}>Contact</Link>
               </li>
               <li>
               <button className="download-button" onClick={downloadCV}>

@@ -47,7 +47,7 @@
     width: 532px;
     height: 492px;
     border-radius: 50%;
-    background-color: #126782;
+    background: radial-gradient(circle, #126782, #008B8B);
     z-index: -1;
     top: 50%;
     left: 50%; 
