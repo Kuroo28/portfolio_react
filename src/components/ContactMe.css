@@ -6,7 +6,7 @@
 .contact-title {
     text-align: center;
     font-size: 32px;
-    color: #126782;
+    color: #94D2BD;
     font-weight: lighter;
     height: 113px;
     width: 465px;
@@ -34,5 +34,17 @@
   .icon:hover {
     transform: scale(1.2);
     color: #EE9B00;
+  }
+
+  .footer-container {
+    width: 100%;
+    height: 34px;
+    text-align: center;
+  }
+
+  .footer-container p {
+    color: #94D2BD;
+    font-weight: 500;
+    font-size: 16px;
   }
   

@@ -9,6 +9,7 @@ const ContactMe = () => {
   };
 
   return (
+    <>
     <div className="contact-me">
     <div className="contact-title">Don't be a stranger<br/><span>Contact me</span></div>
       <div className="contact-icons">
@@ -26,6 +27,10 @@ const ContactMe = () => {
         </div>
       </div>
     </div>
+    <div className='footer-container'>
+      <p>©2023 Copyright: Jeth.dev.com</p>
+    </div>
+    </>
   );
 };
 
